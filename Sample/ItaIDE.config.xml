@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<opacity>0.4</opacity> <!-- opacity(0 to 1) -->
+	<path>C:\Users\Sora\Pictures\sora.jpg</path> <!-- image path -->
+	<position>right</position> <!-- image position(center, left, right, stretch) -->
+	<stretch>uniform</stretch> <!-- stretch method(none, uniform, uniformtofill) -->
+</config>
