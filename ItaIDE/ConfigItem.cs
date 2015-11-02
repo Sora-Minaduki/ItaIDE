@@ -9,25 +9,25 @@ namespace ItaIDE
     public class ConfigItem
     {
         /// <summary>
-        /// 不透明度
+        /// The opacity
         /// </summary>
         [System.Xml.Serialization.XmlElement("opacity")]
         public double Opacity { get; set; }
 
         /// <summary>
-        /// 画像のパス
+        /// The path of the image
         /// </summary>
         [System.Xml.Serialization.XmlElement("path")]
         public string Path { get; set; }
 
         /// <summary>
-        /// 位置
+        /// The position
         /// </summary>
         [System.Xml.Serialization.XmlElement("position")]
         public string Position { get; set; }
 
         /// <summary>
-        /// サイズ変更方法
+        /// The stretch method
         /// </summary>
         [System.Xml.Serialization.XmlElement("stretch")]
         public string Stretch { get; set; }
