@@ -22,6 +22,7 @@ namespace ItaIDE
             _image = new Image();
             _image.Opacity = config.Opacity;
 
+            // Set the position. The default is right.
             if (config.Position == "center")
             {
                 _image.HorizontalAlignment = HorizontalAlignment.Center;
@@ -43,6 +44,7 @@ namespace ItaIDE
                 _image.HorizontalAlignment = HorizontalAlignment.Right;
             }
 
+            // Set the stretch method. The default is uniform. 
             if (config.Stretch == "fill")
             {
                 _image.Stretch = Stretch.Fill;
